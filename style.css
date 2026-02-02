@@ -135,4 +135,56 @@ footer {
   padding: 12px;
   border-radius: 50%;
   text-decoration: none;
+}<!-- Our Clients Section -->
+<section id="clients" style="padding:60px 20px; text-align:center; background:#f8f8f8;">
+
+  <h2 style="font-size:32px; margin-bottom:10px;">
+    Our Trusted Clients
+  </h2>
+
+  <p style="color:gray; margin-bottom:40px;">
+    We have successfully worked with industries, hospitals, and commercial projects.
+  </p>
+
+  <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:20px;">
+
+    <div style="background:white; padding:20px; width:220px; border-radius:12px; box-shadow:0 0 10px #ddd;">
+      <h3>ABC Industries</h3>
+      <p>Environmental Clearance Support</p>
+    </div>
+
+    <div style="background:white; padding:20px; width:220px; border-radius:12px; box-shadow:0 0 10px #ddd;">
+      <h3>Green Hospital Group</h3>
+      <p>Biomedical Waste Authorization</p>
+    </div>
+
+    <div style="background:white; padding:20px; width:220px; border-radius:12px; box-shadow:0 0 10px #ddd;">
+      <h3>RVSF Vehicle Unit</h3>
+      <p>Consent & Compliance Services</p>
+    </div>
+
+    <div style="background:white; padding:20px; width:220px; border-radius:12px; box-shadow:0 0 10px #ddd;">
+      <h3>Commercial Builders</h3>
+      <p>STP / ETP Report Consultancy</p>
+    </div>
+
+  </div>
+
+</section>
+.client-box{
+  background:white;
+  padding:18px;
+  border-radius:12px;
+  font-size:16px;
+  font-weight:600;
+  box-shadow:0 0 12px rgba(0,0,0,0.08);
+  transition:0.3s;
 }
+
+.client-box:hover{
+  transform:translateY(-5px);
+  background:#e9f7ef;
+}
+
+
+
