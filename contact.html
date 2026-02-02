@@ -1,14 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Contact Us | PollutionCompliance.in</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Contact - PollutionCompliance.in</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header class="top-header">
-  <h2>PollutionCompliance.in</h2>
+<header class="topbar">
+  <div class="logo">🌿 PollutionCompliance.in</div>
   <nav>
     <a href="index.html">Home</a>
     <a href="services.html">Services</a>
@@ -16,41 +16,25 @@
   </nav>
 </header>
 
-<section class="about">
-  <h2>Contact Us</h2>
-  <p>Send your inquiry and we will contact you soon.</p>
-</section>
+<section class="page">
+<h1>Get In Touch</h1>
 
-<section class="contact-form">
-
-<form name="contact" method="POST" data-netlify="true">
-<input type="hidden" name="form-name" value="contact">
-
-<input type="text" name="name" placeholder="Your Name" required>
-
-<input type="text" name="phone" placeholder="Mobile Number" required>
-
-<select name="service">
-  <option>CTE / CTO</option>
-  <option>Environmental Clearance</option>
-  <option>STP / ETP Compliance</option>
-  <option>Hazardous Waste Authorization</option>
-  <option>Vehicle Scrapping Facility (RVSF)</option>
-</select>
-
-<textarea name="message" placeholder="Your Message" required></textarea>
-
-<button type="submit">Send Inquiry</button>
+<form class="contact-form" action="mailto:envirolegal.office@gmail.com" method="post">
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea placeholder="Your Message" required></textarea>
+<button type="submit">Send Message</button>
 </form>
+
+<h2>Office Location</h2>
+<iframe 
+src="https://maps.google.com/maps?q=PVS%20Mall%20Meerut&t=&z=15&ie=UTF8&iwloc=&output=embed"
+width="100%" height="300" style="border:0;"></iframe>
 
 </section>
 
 <footer>
-  <p>📍 Near PVS, Shastri Nagar, Meerut - 250004</p>
-  <p>📞 +91 8439178882 | 📩 envirolegal.office@gmail.com</p>
+<p><b>Email:</b> envirolegal.office@gmail.com</p>
 </footer>
-
-<a href="https://wa.me/918439178882" class="whatsapp-float">💬 WhatsApp</a>
-
 </body>
 </html>
